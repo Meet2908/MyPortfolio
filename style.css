@@ -1,0 +1,100 @@
+
+    body{
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    
+    
+    .mainInfo {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: bisque;
+    }
+
+    .mainImage{
+      padding-top: 10px;
+      padding-right: 5px;
+    }
+    .personalInfo{
+      padding:5px;
+    }
+    
+    .heading {
+      background-color: #333;
+      color: #fff;
+      padding: 5px;
+      float: left;
+      width: 100%;
+    }
+    
+    .navbar {
+      background-color: #555;
+      color: #fff;
+      padding: 5px;
+    }
+    
+    .navMenu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #fff; 
+    }
+    
+    .insideNav {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    .mainSection img {
+      
+      width: 250px;
+      float: right;
+      
+    }
+    .mainSection{
+      display: flex;
+      flex:1;
+      flex-direction: column;
+    }
+    .footInfo {
+      background-color: gray;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      bottom: 0;
+      margin-top: auto;
+      
+    }
+    .asideInfo {
+        width: 40%;
+        margin: 20px;
+        padding: 10px;
+        /* background-color: #1c3b1e; */
+        background-color: #bad0d1;
+        border: 1px solid #ccc;
+      }
+      .navMenu li a {
+        color: white; /* Add this line to set the text color to white */
+        text-decoration: none; /* Optional: Remove underline */
+      }
+      @media only screen and (min-width: 480px) {
+        .asideInfo {
+          width: 40%;
+          margin: 20px;
+        }
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .navbar {
+          padding: 10px;
+        }
+        
+        .navMenu li {
+          display: inline-block;
+          margin: 0 10px;
+        }
+      }
+  
