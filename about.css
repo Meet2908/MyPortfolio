@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif,monospace;
+}
 .navbar {
     background-color: #555;
     color: #fff;
